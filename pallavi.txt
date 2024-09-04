@@ -1,0 +1,27 @@
+Class Node
+ {
+int data;
+Node left,right
+public Node(int item)
+{
+data =item;
+left=right=null;
+}
+}
+class Binary Tree
+{
+Node root;
+public binaryTree(){root=null}
+void printlevelOrder()
+{
+int h=height(root);
+int i;
+for(i=1;i<=h;i++)
+print current level(root,i);
+}
+int height(Node root)
+{
+if(root==null)
+return=0;
+else
+{
